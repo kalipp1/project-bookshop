@@ -1,3 +1,7 @@
+* {
+  font-family: "Open Sans", Arial, sans-serif;
+}
+
 ul {
   list-style-type: none;
   margin: 0;
@@ -29,7 +33,7 @@ figure {
 
     &::after {
       content: "\f004";
-      font-family: "Font Awesome 5 Free";
+      font-family: "Font Awesome 5 Free", Arial, sans-serif;
       -moz-osx-font-smoothing: grayscale;
       -webkit-font-smoothing: antialiased;
       display: inline-block;
@@ -43,16 +47,16 @@ figure {
       top: -20px;
       right: -20px;
       font-size: 40px;
-      text-shadow: 0 0 20px rgba(0,0,0,0.2);
+      text-shadow: 0 0 20px rgb(0 0 0 / 20%);
       opacity: 0;
     }
 
-    &:hover:after {
+    &:hover::after {
       opacity: 0.5;
     }
 
     &.favorite {
-      box-shadow: 0 0 20px rgba(0,0,0,0.2);
+      box-shadow: 0 0 20px rgb(0 0 0 / 20%);
       transform: scale(1.1);
 
       &::after {
@@ -76,5 +80,4 @@ figure {
       width: 100%;
     }
   }
-
 }

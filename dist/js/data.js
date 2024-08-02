@@ -1,4 +1,4 @@
-const dataSource = {}; // eslint-disable-line no-unused-vars
+const dataSource = {} // eslint-disable-line no-unused-vars
 
 dataSource.books = [
   {
@@ -55,5 +55,5 @@ dataSource.books = [
       adults: false,
       nonFiction: false
     }
-  },
-];
+  }
+]
